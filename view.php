@@ -61,7 +61,7 @@
         <!-- MODIFY & DELETE -->
         <div class="view_btn">
           <center>
-                <button class="view_btn1" onclick="location.href='./index.php'">목록으로</button>
+                <button class="view_btn1" onclick="location.href='./Board.php'">목록으로</button>
                 <button class="view_btn1" onclick="location.href='./modify.php?number=<?=$number?>&id=<?=$_SESSION['userid']?>'">수정</button>
                 <button class="view_btn1" onclick="location.href='./delete.php?number=<?=$number?>&id=<?=$_SESSION['userid']?>'">삭제</button>
               </center>
